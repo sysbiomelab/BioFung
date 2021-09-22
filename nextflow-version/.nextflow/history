@@ -1,8 +1,0 @@
-2021-09-22 09:37:02	-	boring_tuckerman	-	d9864ea8a5ac59c4ab094c64b5793109	20f04d7a-52f5-4bc3-9d65-78b4e379894d	nextflow run main.nf -with-tower -c /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config --input ../afumigatus.fasta -bg
-2021-09-22 09:37:53	8s	cranky_curran	ERR	d9864ea8a5ac59c4ab094c64b5793109	99e3b8f8-0b6a-4553-9ed1-b721144615a1	nextflow run main.nf -with-tower -c /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config -bg
-2021-09-22 09:39:24	3h 21m 28s	amazing_poitras	ERR	d9864ea8a5ac59c4ab094c64b5793109	c73f6d1f-8a41-41b7-a7d9-9d9ec0e88326	nextflow run main.nf -with-tower -c /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config -bg
-2021-09-22 13:02:41	30.4s	disturbed_hawking	ERR	d9864ea8a5ac59c4ab094c64b5793109	f5176f84-4688-425d-b813-26427d20e68d	nextflow run main.nf -c configs/institutional/rosalind.config
-2021-09-22 13:04:28	17.8s	compassionate_franklin	ERR	d9864ea8a5ac59c4ab094c64b5793109	5abed7be-f991-402e-bc34-5d34173c99c6	nextflow run main.nf -c configs/institutional/rosalind.config
-2021-09-22 13:05:18	18.9s	infallible_euler	ERR	d9864ea8a5ac59c4ab094c64b5793109	ba5441f8-ed01-425d-a872-828504bb8269	nextflow run main.nf -c configs/institutional/rosalind.config
-2021-09-22 13:05:56	15s	berserk_plateau	ERR	d9864ea8a5ac59c4ab094c64b5793109	b445529f-20c8-4942-8295-514eea9660f4	nextflow run main.nf -c configs/institutional/rosalind.config
-2021-09-22 13:10:34	2m 36s	intergalactic_kilby	ERR	d9864ea8a5ac59c4ab094c64b5793109	913a24b9-6319-4eed-bc3d-ead1325139fb	nextflow run main.nf -c configs/institutional/rosalind.config -with-tower --partition brc -bg
