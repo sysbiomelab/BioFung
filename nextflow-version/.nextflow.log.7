@@ -1,0 +1,76 @@
+Sep-22 09:37:01.178 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -with-tower -c /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config --input ../afumigatus.fasta -bg
+Sep-22 09:37:01.283 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.3
+Sep-22 09:37:01.309 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [boring_tuckerman] - revision: d9864ea8a5
+Sep-22 09:37:01.325 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /users/k1809704/BioFung/nextflow-version/nextflow.config
+Sep-22 09:37:01.328 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config
+Sep-22 09:37:01.328 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /users/k1809704/BioFung/nextflow-version/nextflow.config
+Sep-22 09:37:01.329 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config
+Sep-22 09:37:01.353 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Sep-22 09:37:02.050 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Sep-22 09:37:02.349 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/users/k1809704/.nextflow/plugins
+Sep-22 09:37:02.353 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-22 09:37:02.359 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/21921f6807262d1f701978cdf8a1f5c4
+Sep-22 09:37:02.373 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-22 09:37:02.396 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-22 09:37:02.413 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-22 09:37:02.432 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-22 09:37:02.432 [main] DEBUG nextflow.plugin.PluginsFacade - Plugin 'start' is not required in self-contained mode -- ignoring it for plugins: [nf-tower@1.1.0]
+Sep-22 09:37:02.554 [main] DEBUG nextflow.Session - Session uuid: 20f04d7a-52f5-4bc3-9d65-78b4e379894d
+Sep-22 09:37:02.554 [main] DEBUG nextflow.Session - Run name: boring_tuckerman
+Sep-22 09:37:02.556 [main] DEBUG nextflow.Session - Executor pool size: 24
+Sep-22 09:37:02.571 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /users/k1809704/BioFung/nextflow-version/nextflow.config
+Sep-22 09:37:02.571 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config
+Sep-22 09:37:02.571 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /users/k1809704/BioFung/nextflow-version/nextflow.config
+Sep-22 09:37:02.571 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /users/k1809704/meteor_pipeline/configs/institutional/rosalind.config
+Sep-22 09:37:02.572 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Sep-22 09:37:02.683 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Sep-22 09:37:02.813 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.3 build 5563
+  Created: 21-07-2021 16:57 UTC (17:57 BST)
+  System: Linux 3.10.0-1160.36.2.el7.x86_64
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 12.0.1+12
+  Encoding: UTF-8 (UTF-8)
+  Process: 71231@login4.pri.rosalind2.alces.network [10.10.0.24]
+  CPUs: 24 - Mem: 187.4 GB (50.5 GB) - Swap: 7.9 GB (56 KB)
+Sep-22 09:37:02.870 [main] DEBUG nextflow.Session - Work-dir: /users/k1809704/BioFung/nextflow-version/work [nfs]
+Sep-22 09:37:02.870 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /users/k1809704/BioFung/nextflow-version/bin
+Sep-22 09:37:02.986 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[GoogleLifeSciencesExecutor, AwsBatchExecutor, IgExecutor]
+Sep-22 09:37:03.005 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-22 09:37:03.005 [main] DEBUG nextflow.Session - Observer factory: TowerFactory
+Sep-22 09:37:03.041 [main] ERROR nextflow.cli.Launcher - @unknown
+nextflow.exception.IllegalConfigException: Cannot enable more than one container engine -- Choose either one of: docker, singularity
+	at nextflow.Session.memoizedMethodPriv$getContainerConfig(Session.groovy:1116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:1029)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:1012)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethodSafe(InvokerHelper.java:101)
+	at nextflow.Session$_closure3.doCall(Session.groovy)
+	at nextflow.Session$_closure3.doCall(Session.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.lambda$call$0(Memoize.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:113)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.call(Memoize.java:136)
+	at groovy.lang.Closure.call(Closure.java:406)
+	at nextflow.Session.getContainerConfig(Session.groovy)
+	at nextflow.script.WorkflowMetadata.<init>(WorkflowMetadata.groovy:237)
+	at nextflow.Session.init(Session.groovy:372)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:112)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:302)
+	at nextflow.cli.Launcher.run(Launcher.groovy:475)
+	at nextflow.cli.Launcher.main(Launcher.groovy:657)

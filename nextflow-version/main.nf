@@ -13,7 +13,7 @@ process decompress {
 
 	shell:
 	'''
-	unzip !{hmm}
+	bunzip2 -f !{hmm}
 	'''
 }
 process hmm {
