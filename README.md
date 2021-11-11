@@ -124,10 +124,6 @@ Contact: neelu.begum@kcl.ac.uk
 Acknowledgements:
 Theo Portlock
 SysbiomeLab
-Nextflow
-Docker
-KEGG
-HMMER
 
 Please checkout main group page for updated code: sysbiomelab/BioFung
 
